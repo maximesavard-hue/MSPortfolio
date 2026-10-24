@@ -8,7 +8,7 @@ Site personnel de Maxime Savard, consulté surtout depuis un téléphone Android
 - **Pages :** une seule page, `index.html`. Les sections (Disponibilités, Profile, Experience, Projects, Immobilier, Contact) sont des fenêtres qui s'ouvrent avec des ancres (`#disponibilites`, `#intro`, `#work`, `#about`, `#immobilier`, `#contact`). La section « Elements » est un reste du modèle, cachée du menu.
 - **Dossiers :** `assets/css` (le CSS chargé est `main.css`), `assets/js`, `assets/sass` (sources du CSS), `assets/webfonts`, `images/`.
 - **Publication :** GitHub Pages, branche `main`. Le fichier `CNAME` contient `immobilis.ca`.
-- **Style :** fond sombre `#1b1f22` avec image de fond, texte blanc, police Source Sans Pro (Google Fonts). Bouton principal « Calendrier » rouge vin `#6d1a36` avec texte blanc.
+- **Style :** fond sombre `#1b1f22` avec image de fond, texte blanc, police Source Sans Pro (Google Fonts). Bouton principal « Calendrier » rouge `#A72020` avec texte blanc (tout le rouge du site utilise cette couleur).
 - **Langues :** bouton EN / FR en haut à droite. Les textes bilingues utilisent `<span data-lang="en">…</span><span data-lang="fr">…</span>`. Le contenu existant (menu, Profile, Experience, Projects, Contact) est encore en anglais seulement.
 - **Contact :** formulaire envoyé à Formspree.
 
@@ -22,6 +22,27 @@ Site personnel de Maxime Savard, consulté surtout depuis un téléphone Android
 - Modifier seulement ce qui est demandé.
 - Vérifier qu'aucun lien interne n'est cassé après une modification.
 - Poser la question quand une information manque plutôt que deviner.
+
+## État et à faire
+
+Dernière mise à jour : 22 octobre 2026. Tout ce qui est décrit ici est publié sur `main`.
+
+**Fait :**
+- Gros bouton « Calendrier » (rouge #A72020) sur l'accueil, qui ouvre la section Disponibilités (calendrier Zoho intégré + bouton « Ouvrir en plein écran »).
+- Section Immobilier (provisoire : « Nouveau volet à venir » et un bouton vers le contact).
+- Bouton EN / FR en haut à droite, avec choix mémorisé.
+- Séparateurs du menu corrigés (la ligne centrale du modèle est désactivée).
+
+**À faire :**
+- Traduire en français le menu (Profile, Experience, Projects, Contact), le contenu de ces sections et le formulaire de contact. Aujourd'hui, seuls l'accueil, Disponibilités et Immobilier sont bilingues, et le reste reste en anglais quand on choisit FR.
+- Remplacer la section Immobilier provisoire quand le volet immobilier sera défini (contenu à fournir par Maxime). Une vraie page pourra être ajoutée à ce moment-là.
+- Corriger le titre de l'onglet, qui affiche encore « Dimension by HTML5 UP ».
+- Supprimer la section « Elements » (démo du modèle, cachée du menu), seulement si Maxime le demande.
+
+**Décisions déjà prises (ne pas rediscuter) :**
+- On a gardé la page actuelle et sa structure au lieu de créer une nouvelle accueil à boutons ou de déplacer le portfolio vers une autre page. Les liens existants (`immobilis.ca/`, `#contact`) restent donc valides.
+- Le menu ne contient pas de bouton « Disponibilités » : le gros bouton de l'accueil suffit.
+- Le calendrier Zoho s'affiche en français (`language=fr-CA` dans l'URL), quelle que soit la langue choisie sur le site. L'URL ne se modifie pas.
 
 ## Lien de calendrier public
 
